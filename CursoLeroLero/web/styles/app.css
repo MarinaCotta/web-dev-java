@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+.container-fluid {
+	min-height: 93vh;
+}
+
+label.error {
+	margin-top: 0.4rem;
+	color: var(--warning);
+}
+
+.carousel-imagem {
+	opacity: 0.7;
+}
+.carousel-caption {
+	background-color: rgba(2, 2, 2, 0.424);
+}
+
+@media (min-width: 768px) {
+	.carousel-item {
+		max-height: 65vh;
+		min-height: 350px;
+	}
+}
+
+.logo {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+.navbar-brand {
+	font-size: 2rem;
+}
+.text {
+	font-size: 1.3rem;
+}
